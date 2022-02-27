@@ -1,8 +1,8 @@
 # Collegescorecard
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/collegescorecard`. To experiment with that code, run `bin/console` for an interactive prompt.
+Ruby gem to access the [College Scorecard Data](https://collegescorecard.ed.gov/data/documentation/)
+Check out the API documention [here](https://github.com/RTICWDT/open-data-maker/blob/master/API.md)
 
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
@@ -22,8 +22,8 @@ Or install it yourself as:
 
 ## Usage
 
-To access the API, you'll need to create a `Vultr::Client` and pass in your API key. You can find your API key at [https://my.vultr.com/settings](https://my.vultr.com/settings/#settingsapi)
-
+To access the API, you'll need to create a `Collegescorecard::Client` and pass in your API key. 
+You can find your API key at [https://api.data.gov/signup/](https://api.data.gov/signup/)
 
 
 TODO: Write usage instructions here
@@ -36,7 +36,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/collegescorecard. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/collegescorecard/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/togasoftware/collegescorecard. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/collegescorecard/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
