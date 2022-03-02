@@ -2,9 +2,10 @@ require "ostruct"
 
 module Collegescorecard
     class Object
-        attr_reader :attributes
+        attr_reader :attributes, :raw_data
         
         def initialize(attributes)
+            @raw_data = attributes
             @attributes = OpenStruct.new(attributes)
         end
 
