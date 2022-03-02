@@ -1,6 +1,6 @@
 module Collegescorecard
     class Collection
-        attr_reader :data, :total, :page, :per_page
+        attr_reader :data, :total, :page, :per_page, :total_pages
 
         def self.from_response(response, key:, type:)
             body = response.body
@@ -17,6 +17,7 @@ module Collegescorecard
             @total = total
             @page = page
             @per_page = per_page
+            @total_pages = (total.to_f/per_page).ceil
         end
     end
 end
